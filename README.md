@@ -14,6 +14,6 @@ Javascript was written in a way that makes it easy to add other times from anoth
 <br>
 
 > *All art (colors and images) were designed and structured based on the chosen region.*
-> Feedbacks are of great help in improving the project :smile:.
+> Feedbacks are of great help in improving the project :smile::art:.
 
 Made with :heart: by __Lucas Pereira__
