@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+main section {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag {
+    top: 10px;
+    width: 50px;
+}
+
+.brazil .flag {
+    left: 10px;
+}
+
+.london .flag {
+    right: 10px;
+}
+
+p.author {
+    bottom: 10px;
+    right: 10px;
+    color: #B7B7B7;
+}
+
+p.author a {
+    text-decoration: underline;
+    color: unset;
+}
+
+img, p.author {
+    position: absolute;
+}
+
+.brazil {
+    background-color: #1b614a;
+    color: #f1d226;
+}
+
+.london {
+    background-color: #040939;
+    color: #e44c4c;
+}
+
+.brazil .time p {
+    margin-inline-start: 8px;
+}
+
+.london .time p {
+    text-align: right;
+}
+
+.time h1 {
+    font-size: 5em;
+    font-weight: 900;
+    line-height: 100px;
+}
+
+.time p {
+    font-size: 18pt;
+}
+
+@media (max-width: 800px) {
+    main {
+        flex-direction: column;
+    }
+
+    main section {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .flag {
+        top: 20px;
+    }
+
+    .brazil .flag {
+        left: unset;
+    }
+
+    .london .flag {
+        right: unset;
+    }
+    
+    .brazil .time p,
+    .london .time p {
+        text-align: center
+    }
+}
